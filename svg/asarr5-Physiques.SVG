@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="800"
+   height="600"
+   viewBox="0 0 211.66666 158.75"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="asarr5-Physiques.SVG"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.97764854"
+     inkscape:cx="395.84778"
+     inkscape:cy="283.3329"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient1649"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#1b1b1b;stop-opacity:1;"
+         offset="0"
+         id="stop1647" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.823333;stroke-width:2"
+       id="rect999"
+       width="150.41365"
+       height="133.95619"
+       x="7.6546392"
+       y="53.965206" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:0.877919;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1645"
+       width="194.43611"
+       height="138.41519"
+       x="8.8698273"
+       y="13.199944" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:0.831996;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2073"
+       width="161.19424"
+       height="105.17335"
+       x="19.672161"
+       y="16.153934" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="64.951767"
+       y="141.27011"
+       id="text2129"><tspan
+         sodipodi:role="line"
+         id="tspan2127"
+         style="stroke-width:1"
+         x="64.951767"
+         y="141.27011">UBERISATION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="56.020897"
+       y="115.01875"
+       id="text2909"><tspan
+         sodipodi:role="line"
+         id="tspan2907"
+         style="stroke-width:1"
+         x="56.020897"
+         y="115.01875">Application DPM</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2911"
+       width="54.397102"
+       height="27.875135"
+       x="26.792604"
+       y="31.663988" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="31.93462"
+       y="44.113071"
+       id="text2915"><tspan
+         sodipodi:role="line"
+         id="tspan2913"
+         style="stroke-width:1"
+         x="31.93462"
+         y="44.113071">Missions/</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="31.93462"
+         y="56.460285"
+         id="tspan2917">Tâches</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="23.545012"
+       y="75.235794"
+       id="text2921"><tspan
+         sodipodi:role="line"
+         id="tspan2919"
+         style="stroke-width:1"
+         x="23.545012"
+         y="75.235794">Prestataires</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2923"
+       width="44.924969"
+       height="31.122721"
+       x="122.05519"
+       y="30.040194" />
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="129.09163"
+       y="49.255093"
+       id="text2927"><tspan
+         sodipodi:role="line"
+         id="tspan2925"
+         style="stroke-width:1"
+         x="129.09163"
+         y="49.255093">Clients</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.87777px;fill:#ffffff;fill-opacity:0.823333;stroke:#080808;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="122.86709"
+       y="75.235794"
+       id="text2931"><tspan
+         sodipodi:role="line"
+         id="tspan2929"
+         style="stroke-width:1"
+         x="122.86709"
+         y="75.235794">Services </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1"
+         x="122.86709"
+         y="87.583008"
+         id="tspan2933">Produits</tspan></text>
+  </g>
+</svg>
