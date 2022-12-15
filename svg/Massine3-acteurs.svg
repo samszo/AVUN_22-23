@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="800"
+   height="600"
+   viewBox="0 0 211.66666 158.75"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="dessin.svg"
+   sodipodi:docname="Acteurs.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,11 +22,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.6819304"
-     inkscape:cx="365.354"
-     inkscape:cy="229.4982"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="226.18263"
+     inkscape:cy="302.27754"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -36,10 +36,10 @@
   <defs
      id="defs2">
     <rect
-       x="309.16856"
-       y="317.49233"
-       width="131.99119"
-       height="34.484185"
+       x="309.16855"
+       y="317.49234"
+       width="131.9912"
+       height="34.484184"
        id="rect2689" />
   </defs>
   <g
@@ -61,7 +61,9 @@
        inkscape:rounded="-3.469447e-18"
        inkscape:randomized="0"
        d="M 90.138242,53.170551 46.071773,76.954601 3.4409467,50.683945 4.8765896,0.62923818 48.943059,-23.154812 91.573885,3.1158445 Z"
-       transform="matrix(1.0003676,0,0,0.81021469,51.579992,37.432271)" />
+       transform="matrix(2.27851,-0.06867736,0.0699203,1.4361155,-2.9749317,39.755033)"
+       inkscape:transform-center-x="0.35576094"
+       inkscape:transform-center-y="0.010723869" />
     <path
        sodipodi:type="star"
        style="fill:#ffffff;stroke:#2b0000;stroke-width:0.3;stroke-dasharray:none"
@@ -77,7 +79,7 @@
        inkscape:rounded="-3.469447e-18"
        inkscape:randomized="0"
        d="m 69.84534,18.562502 -0.83475,20.952185 -18.562499,9.753178 -17.72775,-11.199008 0.83475,-20.952185 18.5625,-9.7531777 z"
-       transform="translate(27.529131,27.057203)" />
+       transform="matrix(2.3122188,-0.08837406,0.10898176,1.8749942,-62.010405,24.860212)" />
     <path
        sodipodi:type="star"
        style="fill:#ffffff;stroke:#2b0000;stroke-width:0.3;stroke-dasharray:none"
@@ -93,37 +95,40 @@
        inkscape:rounded="-3.469447e-18"
        inkscape:randomized="0"
        d="M 100.36335,33.978813 81.781689,44.139882 63.691116,33.128229 64.1822,11.955506 82.763859,1.7944365 100.85443,12.80609 Z"
-       inkscape:transform-center-x="1.0365074e-06"
-       transform="translate(39.012712,31.933793)" />
+       inkscape:transform-center-x="8.0549727e-06"
+       transform="matrix(2.3025425,-0.05307049,0.0654261,1.8677112,-36.520006,33.889016)"
+       inkscape:transform-center-y="3.6963721e-06" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,6.1350635,-5.5058263)"
+       transform="matrix(0.64797649,0,0,0.50546649,-120.26378,-50.251169)"
        id="text2687"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2689);fill:#070707;fill-opacity:1;stroke:#2b0000;stroke-width:0;stroke-dasharray:none"><tspan
          x="309.16797"
          y="341.16211"
-         id="tspan4371">Société</tspan></text>
+         id="tspan3112">Société</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';fill:#070707;fill-opacity:1;stroke:#2b0000;stroke-width:0;stroke-dasharray:none"
-       x="70.15995"
-       y="57.26059"
-       id="text3573"><tspan
+       style="font-size:17.4104px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';fill:#070707;fill-opacity:1;stroke:#2b0000;stroke-width:0;stroke-dasharray:none"
+       x="25.156046"
+       y="87.699623"
+       id="text3573"
+       transform="scale(1.1309953,0.88417697)"><tspan
          sodipodi:role="line"
          id="tspan3571"
          style="stroke-width:0"
-         x="70.15995"
-         y="57.26059">Clients</tspan></text>
+         x="25.156046"
+         y="87.699623">Clients</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:5.64444px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';fill:#070707;fill-opacity:1;stroke:#2b0000;stroke-width:0;stroke-dasharray:none"
-       x="110.43114"
-       y="55.372879"
-       id="text3577"><tspan
+       style="font-size:15.3797px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';fill:#070707;fill-opacity:1;stroke:#2b0000;stroke-width:0;stroke-dasharray:none"
+       x="134.31213"
+       y="71.577385"
+       id="text3577"
+       transform="scale(0.91040935,1.098407)"><tspan
          sodipodi:role="line"
          id="tspan3575"
          style="stroke-width:0"
-         x="110.43114"
-         y="55.372879">Prestataires</tspan></text>
+         x="134.31213"
+         y="71.577385">Prestataires</tspan></text>
   </g>
 </svg>

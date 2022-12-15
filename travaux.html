@@ -9,9 +9,10 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-<h1>Travaux de </h1>    
-<h2 class="rouge">Etudiant AVUN : <span id="etuNom" ></span></h2>
+<h1>Travaux de <span class="rouge" id="etuNom" ></span></h1>    
+<h2>Etudiant AVUN</h2>
 <h3 id='promotion' class="rouge">Promotion 2022-2023</h3>
+<h4 class="titreDimension" id="titrePhysiques"></h4>
 <iframe id="svgPhysiques"    
     title="Dimensions physiques"
     src="">
@@ -26,6 +27,7 @@
     console.log('valeur du paramètre login :'+login);
     d3.select('#etuNom').html(login);
     d3.select('#svgPhysiques').attr('src',urlSvgPhysique);
+    d3.select('#titrePhysiques').html('Dimension Physiques');
 
 
 </script>
