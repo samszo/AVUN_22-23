@@ -7,3 +7,9 @@ h1{
 #promotion{
     font-style: italic;
 }
+iframe {
+    border: 1px solid black;
+    width: 800px;
+    height: 600px;
+
+}
