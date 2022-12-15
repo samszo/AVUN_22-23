@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="800"
+   height="600"
+   viewBox="0 0 211.66667 158.75"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
-   sodipodi:docname="Ubérisation.svg"
+   sodipodi:docname="RimKaidi-physiques.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,11 +23,11 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
+     inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.83889246"
      inkscape:cx="387.41557"
-     inkscape:cy="545.95794"
+     inkscape:cy="337.34956"
      inkscape:window-width="1463"
      inkscape:window-height="834"
      inkscape:window-x="0"
@@ -37,13 +37,19 @@
   <defs
      id="defs2">
     <rect
-       x="315.89269"
-       y="629.40129"
+       x="778.40728"
+       y="439.86568"
+       width="0"
+       height="32.185293"
+       id="rect19701" />
+    <rect
+       x="315.8927"
+       y="629.40131"
        width="10.728431"
        height="14.304575"
        id="rect4253" />
     <rect
-       x="534.03746"
+       x="534.03748"
        y="503.04422"
        width="40.529629"
        height="15.496623"
@@ -57,33 +63,33 @@
          id="stop3987" />
     </linearGradient>
     <rect
-       x="491.12374"
+       x="491.12375"
        y="509.00446"
-       width="19.072766"
-       height="19.072766"
+       width="19.072765"
+       height="19.072765"
        id="rect3392" />
     <rect
        x="469.66687"
-       y="500.66012"
-       width="129.93322"
+       y="500.66013"
+       width="129.93323"
        height="23.840958"
        id="rect3378" />
     <rect
-       x="303.97222"
-       y="693.77188"
-       width="21.456862"
+       x="303.97223"
+       y="693.77185"
+       width="21.456861"
        height="15.496623"
        id="rect3368" />
     <rect
-       x="303.97222"
-       y="686.61959"
+       x="303.97223"
+       y="686.61957"
        width="231.25729"
        height="46.489868"
        id="rect3304" />
     <rect
-       x="286.0915"
-       y="689.00369"
-       width="265.82668"
+       x="286.09149"
+       y="689.00366"
+       width="265.82669"
        height="23.840958"
        id="rect3294" />
     <linearGradient
@@ -139,21 +145,21 @@
        xlink:href="#linearGradient3204"
        id="linearGradient3206"
        x1="22.708511"
-       y1="130.41625"
+       y1="130.41624"
        x2="187.97603"
-       y2="130.41625"
+       y2="130.41624"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0076227,0,0,1.006025,1.0893874,-4.8859063)" />
+       gradientTransform="matrix(1.0152454,0,0,1.011338,1.8633753,-58.602597)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3212"
        id="linearGradient3214"
        x1="31.224203"
        y1="119.53509"
-       x2="183.56048"
+       x2="183.56049"
        y2="119.53509"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0.31539601,0.31539601)" />
+       gradientTransform="matrix(1.007565,0,0,1.0052812,1.0835287,-51.471455)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3220"
@@ -163,27 +169,27 @@
        x2="89.887856"
        y2="114.48876"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0856743,0,0,0.99973819,-1.3986955,5.7071027)" />
+       gradientTransform="matrix(1.0938874,0,0,1.005018,-0.64352987,-46.051274)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3228"
        id="linearGradient3230"
        x1="100.61132"
        y1="119.85048"
-       x2="177.88334"
+       x2="177.88335"
        y2="119.85048"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-0.31539601,-1.261584)" />
+       gradientTransform="matrix(0.94255451,0,0,0.89814468,8.5543139,-40.374098)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3989"
        id="linearGradient3991"
        x1="107.55004"
        y1="135.46259"
-       x2="171.57543"
+       x2="171.57542"
        y2="135.46259"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.66512271,0,0,1.4329704,49.574947,-75.367284)" />
+       gradientTransform="matrix(0.67015437,0,0,1.4405382,45.669392,-127.55383)" />
   </defs>
   <g
      inkscape:label="Calque 1"
@@ -201,38 +207,38 @@
        d="m 255.78616,138.45885 4.73094,52.98653 z"
        id="path3090" />
     <rect
-       style="fill:none;stroke:url(#linearGradient3206);stroke-width:0.266388"
+       style="fill:none;stroke:url(#linearGradient3206);stroke-width:0.268099"
        id="rect3200"
-       width="166.5273"
-       height="105.02507"
-       x="23.970997"
-       y="73.803558" />
+       width="167.78708"
+       height="105.57973"
+       x="24.918085"
+       y="20.502439" />
     <rect
-       style="fill:none;stroke:url(#linearGradient3214);stroke-width:0.264583"
+       style="fill:none;stroke:url(#linearGradient3214);stroke-width:0.266282"
        id="rect3208"
-       width="152.33627"
-       height="78.848999"
-       x="31.539598"
-       y="80.425987" />
+       width="153.48871"
+       height="79.265419"
+       x="32.543945"
+       y="29.062216" />
     <rect
-       style="fill:none;stroke:url(#linearGradient3222);stroke-width:0.275648"
+       style="fill:none;stroke:url(#linearGradient3222);stroke-width:0.277418"
        id="rect3216"
-       width="55.814026"
-       height="42.251999"
-       x="40.376217"
-       y="99.039886" />
+       width="56.236259"
+       height="42.47514"
+       x="41.447414"
+       y="47.774418" />
     <rect
-       style="fill:none;stroke:url(#linearGradient3230);stroke-width:0.264583"
+       style="fill:none;stroke:url(#linearGradient3230);stroke-width:0.243438"
        id="rect3224"
-       width="77.272018"
-       height="49.832569"
-       x="100.29592"
-       y="93.672615" />
+       width="72.833092"
+       height="44.756859"
+       x="103.38597"
+       y="44.890549" />
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text3292"
-       style="fill:none;white-space:pre;shape-inside:url(#rect3294)" />
+       style="white-space:pre;shape-inside:url(#rect3294);fill:none" />
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:none;stroke-width:0.264583"
@@ -248,39 +254,39 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text3302"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect3304)" />
+       style="white-space:pre;shape-inside:url(#rect3304);fill:#000000" />
     <text
        xml:space="preserve"
        style="font-size:3.175px;line-height:0;white-space:pre;inline-size:19.6966;fill:#000000;stroke-width:0.264583"
        x="80.741371"
        y="183.56047"
        id="text3364"
-       transform="matrix(2.9837525,0,0,3.9795378,-153.46583,-539.49906)"><tspan
+       transform="matrix(3.0063247,0,0,4.0005546,-153.86105,-594.13679)"><tspan
          x="80.741371"
          y="183.56047"
-         id="tspan4703">Ubérisation</tspan></text>
+         id="tspan20494">Ubérisation</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text3366"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect3368)" />
+       style="white-space:pre;shape-inside:url(#rect3368);fill:#000000" />
     <text
        xml:space="preserve"
-       style="font-size:9.71742px;fill:#000000;stroke-width:0.809788"
-       x="73.895531"
-       y="160.41464"
+       style="font-size:9.77983px;fill:#000000;stroke-width:0.814989"
+       x="75.178307"
+       y="112.37583"
        id="text3374"
-       transform="scale(0.94641485,1.0566191)"><tspan
+       transform="scale(0.94748929,1.0554209)"><tspan
          sodipodi:role="line"
-         style="stroke-width:0.809788"
-         x="73.895531"
-         y="160.41464"
+         style="stroke-width:0.814989"
+         x="75.178307"
+         y="112.37583"
          id="tspan3404">Application  DPM</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text3376"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect3378)" />
+       style="white-space:pre;shape-inside:url(#rect3378);fill:#000000" />
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
@@ -296,71 +302,76 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text3390"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect3392)" />
+       style="white-space:pre;shape-inside:url(#rect3392);fill:#000000" />
     <text
        xml:space="preserve"
-       style="font-size:7.72705px;fill:#000000;stroke-width:0.643919"
-       x="65.154411"
-       y="113.6272"
+       style="font-size:7.77668px;fill:#000000;stroke-width:0.648055"
+       x="66.59758"
+       y="75.656593"
        id="text3398"
-       transform="scale(0.74642953,1.3397112)"><tspan
+       transform="scale(0.74727692,1.338192)"><tspan
          sodipodi:role="line"
          id="tspan3396"
-         style="stroke-width:0.643919"
-         x="65.154411"
-         y="113.6272">Prestataires</tspan></text>
+         style="stroke-width:0.648055"
+         x="66.59758"
+         y="75.656593">Prestataires</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.42806px;fill:#000000;stroke-width:0.619004"
-       x="49.148918"
-       y="107.05767"
+       style="font-size:7.47577px;fill:#000000;stroke-width:0.62298"
+       x="50.351887"
+       y="63.05196"
        id="text3402"
-       transform="scale(0.86201755,1.1600692)"><tspan
+       transform="scale(0.86299616,1.1587537)"><tspan
          sodipodi:role="line"
          id="tspan3400"
-         style="stroke-width:0.619004"
-         x="49.148918"
-         y="107.05767">Missions/Tâches</tspan></text>
+         style="stroke-width:0.62298"
+         x="50.351887"
+         y="63.05196">Missions/Tâches</tspan></text>
     <rect
-       style="fill:#ffffff;stroke:url(#linearGradient3991);stroke-width:0.258305"
+       style="fill:#ffffff;stroke:url(#linearGradient3991);stroke-width:0.259964"
        id="rect3453"
-       width="42.584743"
-       height="16.722269"
-       x="121.10894"
-       y="110.38546" />
+       width="42.906898"
+       height="16.810583"
+       x="117.74454"
+       y="59.179913" />
     <text
        xml:space="preserve"
-       style="font-size:8.56832px;fill:#000000;stroke-width:0.714026"
-       x="167.08127"
-       y="96.365692"
+       style="font-size:8.62335px;fill:#000000;stroke-width:0.718612"
+       x="162.70119"
+       y="56.579521"
        id="text4047"
-       transform="scale(0.78408421,1.2753732)"><tspan
+       transform="scale(0.78497434,1.273927)"><tspan
          sodipodi:role="line"
          id="tspan4045"
-         style="fill:#000000;stroke-width:0.714026"
-         x="167.08127"
-         y="96.365692">Clients</tspan></text>
+         style="fill:#000000;stroke-width:0.718612"
+         x="162.70119"
+         y="56.579521">Clients</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text4099"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect4101)" />
+       style="white-space:pre;shape-inside:url(#rect4101);fill:#000000" />
     <text
        xml:space="preserve"
-       style="font-size:6.03865px;fill:#000000;stroke-width:0.50322"
-       x="193.40817"
-       y="98.008743"
+       style="font-size:6.19022px;fill:#000000;stroke-width:0.515851"
+       x="190.33003"
+       y="66.636848"
        id="text4245"
-       transform="scale(0.64064121,1.5609361)"><tspan
+       transform="scale(0.65327159,1.5307569)"><tspan
          sodipodi:role="line"
          id="tspan4243"
-         style="stroke-width:0.50322"
-         x="193.40817"
-         y="98.008743">Services/Produits</tspan></text>
+         style="stroke-width:0.515851"
+         x="190.33003"
+         y="66.636848">Services/Produits</tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text4251"
-       style="fill:#000000;white-space:pre;shape-inside:url(#rect4253)" />
+       style="white-space:pre;shape-inside:url(#rect4253);fill:#000000" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text19699"
+       style="fill:none;stroke:#000000;white-space:pre;shape-inside:url(#rect19701)" />
   </g>
 </svg>
