@@ -25,8 +25,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1.1893044"
-     inkscape:cx="469.60223"
-     inkscape:cy="290.50595"
+     inkscape:cx="223.23974"
+     inkscape:cy="324.13905"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -101,12 +101,19 @@
          x="97.287781"
          y="16.413675" />
       <rect
-         style="fill:none;stroke:#2b0000;stroke-width:0.316475"
+         style="fill:none;stroke:#2b0000;stroke-width:0.27998"
          id="rect518"
-         width="43.615528"
-         height="16.894114"
-         x="45.828236"
-         y="21.624025" />
+         width="36.977955"
+         height="15.595796"
+         x="51.425724"
+         y="21.076611" />
+      <rect
+         style="fill:none;stroke:#2b0000;stroke-width:0.271878"
+         id="rect518-0"
+         width="35.873714"
+         height="15.158959"
+         x="9.9251795"
+         y="21.40835" />
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,-0.15730931,12.270127)"
@@ -145,18 +152,25 @@
            y="92.052711">Prestataires</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:8.32221px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';fill:none;stroke:none;stroke-width:0.525526"
-         x="18.839378"
-         y="117.65386"
+         style="font-size:8.32221px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;text-anchor:middle;fill:none;stroke:none;stroke-width:0.525526"
+         x="99.178871"
+         y="114.62749"
          id="text640"
          transform="scale(0.95318853,1.0491104)"><tspan
            sodipodi:role="line"
            id="tspan638"
-           style="font-size:8.32221px;stroke:none;stroke-width:0.525526"
-           x="18.839378"
-           y="117.65386"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.36013px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.525526"
-   id="tspan642">Application Digital Platform Merger (DPM)</tspan> </tspan></text>
+           style="font-size:8.32221px;text-align:center;text-anchor:middle;stroke:none;stroke-width:0.525526"
+           x="99.178871"
+           y="114.62749"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.36013px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.525526"
+             id="tspan642">Application </tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-size:8.32221px;text-align:center;text-anchor:middle;stroke:none;stroke-width:0.525526"
+           x="100.21915"
+           y="126.32765"
+           id="tspan392"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.36013px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.525526"
+   id="tspan394">Digital Platform Merger (DPM)</tspan> </tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.441082"
@@ -188,24 +202,17 @@
          height="14.882298"
          x="143.70976"
          y="21.902813" />
-      <rect
-         style="fill:none;stroke:#2b0000;stroke-width:0.474992;stroke-opacity:1"
-         id="rect870"
-         width="34.536015"
-         height="16.848812"
-         x="8.6727943"
-         y="21.327911" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.441082"
-         x="61.041409"
+         x="64.90654"
          y="30.778864"
          id="text874"
          transform="scale(0.95835662,1.0434529)"><tspan
            sodipodi:role="line"
            id="tspan872"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.441082"
-           x="61.041409"
+           x="64.90654"
            y="30.778864">vélos</tspan></text>
       <text
          xml:space="preserve"
@@ -225,16 +232,15 @@
          style="fill:#000000;font-size:38.77534866px;-inkscape-font-specification:'Times New Roman, Normal';font-family:'Times New Roman';stroke-width:0;opacity:0.5;white-space:pre;shape-inside:url(#rect5572);stroke:none" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.441082;stroke-opacity:1"
-         x="12.157695"
-         y="30.896603"
-         id="text6012"
-         transform="scale(0.95835662,1.0434529)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:0.98;fill:#000000;stroke:none;stroke-width:0"
+         x="28.110804"
+         y="31.759056"
+         id="text398"><tspan
            sodipodi:role="line"
-           id="tspan6010"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.441082;stroke-opacity:1"
-           x="12.157695"
-           y="30.896603">véhicules</tspan></text>
+           id="tspan396"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.11389px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0"
+           x="28.110804"
+           y="31.759056">véhicules</tspan></text>
     </g>
   </g>
 </svg>
