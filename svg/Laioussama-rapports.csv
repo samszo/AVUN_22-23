@@ -1,0 +1,9 @@
+Id;sujet ;prédicat;objet
+1;Livre ;sera augmenté;audiovisuel
+2;Concepteurs;développent;1
+3;2;design;1
+4;Auteurs;utilise;camera
+5;Lecteur;Peut;4
+6;5;Maitrise;Ecriture
+7;Editeurs;S'oriente;Production numérique
+8;7;Positionne;Marché d'edition
