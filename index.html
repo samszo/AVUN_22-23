@@ -352,11 +352,20 @@ var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
                     return d['Votre nom'].toLowerCase(); 
                         });
             cardBody.append('h6').text(d => d['Dans quel parcours êtes vous inscris ?']);
+            /*
             cardBody.append('h6').text("Modélisation physique")
                 .on("click",function(e){                    
                             console.log(e);
                             let url = "https://github.com/samszo/AVUN_22-23/tree/main/svg/"
                                 +e['Votre compte GitHub']+'-physiques.svg';
+                            window.open(url, '_blank');
+                        });
+            */
+            cardBody.append('h6').text("Travaux rendus")
+                .on("click",function(e){                    
+                            console.log(e);
+                            let url = "travaux.html?login="
+                                +e['Votre compte GitHub'];
                             window.open(url, '_blank');
                         });
 
