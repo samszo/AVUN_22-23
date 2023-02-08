@@ -117,17 +117,17 @@
                     <a class="nav-link" id="diigoTags-tab" data-toggle="tab" href="#diigoTags" role="tab" aria-controls="diigoTags" aria-selected="true">Diigo Tags</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="veilleRecap-tab" data-toggle="tab" href="#veilleRecap" role="tab" aria-controls="veilleRecap" aria-selected="false">Veilles</a>
+                    <a class="nav-link" id="gitInfos-tab" data-toggle="tab" href="#gitInfos" role="tab" aria-controls="gitInfos" aria-selected="false">GitHub</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="rssFlux-tab" data-toggle="tab" href="#rssFlux" role="tab" aria-controls="rssFlux" aria-selected="false">Flux RSS</a>
+                    <a class="nav-link" id="CV2022-tab" data-toggle="tab" href="#CV2022" role="tab" aria-controls="CV2022" aria-selected="false">CV-2022</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade" id="diigoTags" role="tabpanel" aria-labelledby="diigoTags-tab">...</div>
                 <div class="tab-pane fade" id="sitePerso" role="tabpanel" aria-labelledby="sitePerso-tab">...</div>
-                <div class="tab-pane fade" id="veilleRecap" role="tabpanel" aria-labelledby="veilleRecap-tab"></div>
-                <div class="tab-pane fade" id="rssFlux" role="tabpanel" aria-labelledby="rssFlux-tab"></div>
+                <div class="tab-pane fade" id="gitInfos" role="tabpanel" aria-labelledby="gitInfos-tab"></div>
+                <div class="tab-pane fade" id="CV2022" role="tabpanel" aria-labelledby="CV2022-tab"></div>
             </div>
         </div>
         <div class="modal-footer">
@@ -141,8 +141,7 @@
 
 <script>
 
-
-var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
+var octokit, dataPhoto, dataForm, dataFacet=[], dataDoublons={}
     , vals = {"Pas besoin":1, "Besoin d'approfondissement":5, "Besoin urgent":10, "je ne connais pas du tout":1,"je connais un peu":5,"je vonnais bien":10,"je suis expert(e)":20
         ,"Oui":1,"Non":1
         ,"jamais":1,"rarement":2,"souvent":5,"je suis accro":10
@@ -329,17 +328,6 @@ var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
                         let urlTof = "https://drive.google.com/uc?id="+id+"&export=download";                        
                         return urlTof; 
                         });
-            /*ATTENTION problème quand les images ne sont pas à la même taille
-            ajoute l'overlay sur l'image pour le tooltip du diagramme
-            cards.append("div")
-                    .attr('id',function(d, i) {return 'imgOver'+i})
-                    .attr('class','card-img-overlay')
-                    .on("click",function(e){
-                        //console.log(e);
-                        selectEtu = e;
-                        $('#infosEtu').modal('show');
-                    });
-            */
 
             //ajoute le corps de la carte
             var cardBody = cards.append('div').attr('class','card-body');
@@ -360,7 +348,6 @@ var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
                                 +e['Votre compte GitHub']+'-physiques.svg';
                             window.open(url, '_blank');
                         });
-            */
             cardBody.append('h6').text("Travaux rendus")
                 .on("click",function(e){                    
                             console.log(e);
@@ -368,6 +355,17 @@ var dataPhoto, dataForm, dataFacet=[], dataDoublons={}
                                 +e['Votre compte GitHub'];
                             window.open(url, '_blank');
                         });
+            */
+            /*ATTENTION problème quand les images ne sont pas à la même taille
+            ajoute l'overlay sur l'image pour le tooltip du diagramme
+            */
+            cardBody.append('h6').text("Travaux rendus")
+                    .style('cursor','pointer')
+                    .on("click",function(e){
+                        //console.log(e);
+                        selectEtu = e;
+                        $('#infosEtu').modal('show');
+                    });
 
             /*
             cardBody.append('h5').attr('class','card-title')	  			
@@ -714,32 +712,36 @@ function donutChart() {
 $('#infosEtu').on('show.bs.modal', function (e) {
     //console.log(e);
     console.log(selectEtu);
-
+    //titre du modal
     d3.select('#modalEtuTitle').text(selectEtu['Votre prénom']+' '+selectEtu['Votre nom']);
+    //tags diigo
     var url = "http://www.samszo.univ-paris8.fr/DWM/18-19/diigo.php?user="+selectEtu['Votre compte Diigo'];
     var htm = '<p><a href="'+url+'">'+url+'</a></p>';
     htm += '<iframe id="ifDiigoEtu" title="Diigo étudiant" src="'+url+'"></iframe>';
     d3.select('#diigoTags').html(htm);
-    url = "../"+selectEtu['Votre compte GitHub']+"/modele.svg";
-    htm = '<p><a href="'+url+'">'+url+'</a></p>';
-    htm += '<iframe id="ifSitePerso" title="Modèle SVG" src="'+url+'"></iframe>';
-    d3.select('#sitePerso').html(htm);
- 
-    /*selectEtu['Votre compte Diigo']
-    ht= '<div class="diigo-tags">';
-    ht += '<div class="diigo-banner sidebar-title" style="font: bold 12px arial;margin-bottom:5px;">';
-    ht += '<a href="https://www.diigo.com">';
-    ht += '<img src="https://www.diigo.com/images/ii_blue.gif" width="16" height="16" alt="diigo"/>';
-    ht += '</a>';
-    ht += '<a href="https://www.diigo.com/cloud/luckysemiosis">';
-    ht += 'My Diigo Tags';
-    ht += '</a></div>';
-    //d3.select('#modalEtuBody').html(ht);
-	d3.html("diigo.php", function(html) {
-        //d3.select('#modalEtuBody').append(html);
-        document.getElementById('modalEtuBody').appendChild(html);
-    });
-    */
+    //modèle SVG    
+    d3.select('#sitePersoInfos').remove();
+    let dimensions = ['physiques','acteurs','concepts'], 
+        spi = d3.select('#sitePerso').append('div')
+            .attr('id','sitePersoInfos')
+            .attr('style','height: 100%;overflow:scroll;');
+        dim = spi.selectAll('div').data(dimensions).enter().append('div')
+            .attr('id',d=>'div'+d);
+        dim.append('h4').attr('class',"titreDimension").html(d=>'Dimensions = '+d);
+        dim.append('iframe').attr('title',d=>'Dimensions = '+d)
+            .style('border','1px solid black')
+            .style('width','800px')
+            .style('height','600px')
+            .attr('src',d=>"svg/"+selectEtu['Votre compte GitHub']+'-'+d+'.svg');  
+    url = "https://github.com/samszo/AVUN_22-23/blob/main/svg/"+selectEtu['Votre compte GitHub']+"-rapports.csv";
+    htm = '<p><a href="'+url+'" target="_blank">'+url+'</a></p>';
+    spi.append('div').html(htm);
+    //CV
+    url = "https://"+selectEtu['Votre compte GitHub']+".github.io/CV-2022";
+    htm = '<p><a href="'+url+'" target="_blank">'+url+'</a></p>';
+    htm += '<iframe id="ifCV2022" title="CV-2022" src="'+url+'"></iframe>';
+    d3.select('#CV2022').html(htm);
+
 })
 //l'événement de fin d'ouverture
 $('#infosEtu').on('shown.bs.modal', function (e) {
@@ -761,31 +763,14 @@ $('#infosEtu').on('shown.bs.modal', function (e) {
 
 //gestion des ouverture de tab
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-  if(e.target.id=='veilleRecap-tab'){
+  if(e.target.id=='gitInfos-tab'){
         //initiale la tab
-        d3.select('#veilleRecapDiv').remove();
-        let divRecapVeille = d3.select('#veilleRecap').append('div')
-            .attr('id','veilleRecapDiv')
+        d3.select('#gitInfosDiv').remove();
+        let divRecapVeille = d3.select('#gitInfos').append('div')
+            .attr('id','gitInfosDiv')
             .attr('style','height: 100%;overflow:scroll;');
-        //affichage de la présentation au format .md
-        var url = "../"+selectEtu['Votre compte GitHub']+"/veille.md";
-        var cont = divRecapVeille.append('div');
-        mdToHtml(url,cont);
-        //affiche la veille des formulaires
-        divRecapVeille.append('h1').html('Réponses aux formulaires').append('ul');
-        if(selectEtu['alertes']){
-            divRecapVeille.append('h2').html('Alertes Google');
-            let ulAG = divRecapVeille.append('ul');
-            ulAG.selectAll('li').data(selectEtu['alertes']).enter().append('li').html(function(d){return d;});
-        }else divRecapVeille.append('h2').html("Aucunne alertes Google");        
-        if(selectEtu['alertes']){
-            divRecapVeille.append('h2').html('Newsletter')
-            let ulNL = divRecapVeille.append('ul');
-            ulNL.selectAll('li').data(selectEtu['newletters']).enter().append('li')
-            .html(function(d){return '<a href="'+d+'" target="_blank">'+d+'</a>';});
-        }else divRecapVeille.append('h2').html("Aucunne Newsletter");
-
-                
+        //infos github
+        getGitEtuInfos(selectEtu['Votre compte GitHub']);                
   }
   if(e.target.id=='rssFlux-tab'){
         let urlBaseGit = 'https://raw.githubusercontent.com/samszo/GEN_19/master/'+selectEtu['Votre compte GitHub']+'/dashboard.xml'    
@@ -815,12 +800,51 @@ function mdToHtml(u, cont){
     });         
 }
 
+async function getGitEtuInfos(etu){
+        /*
+        let issues = await octokit.request("GET /repos/{owner}/{repo}/issues", {
+            owner: login,
+            repo: "ChaoticumSeminario",
+            filter:'all'
+        });
+        console.log(issues);
+        */
+        let userIssues = await octokit.request('GET /search/issues', {
+            q:"repo:samszo/ChaoticumSeminario author:"+etu,
+        });        
+        console.log(userIssues);
+        let gid = d3.select('#gitInfosDiv');
+        gid.selectAll('div').remove();
+        gid.append('h4').text('Issues ChaoticumSeminario');
+        if(userIssues.data.total_count==0)gid.append('Aucune issue')
+        else{
+            let div = gid.selectAll('div').data(userIssues.data.items).append('div');
+            div.append('p').append('a').attr('href',i=>i.url).html(i=>i.url);
+            div.append('p').html(i=>i.body);
+        }
+        
+    }
+
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js" crossorigin="anonymous"></script>
 
 <script src="js/opml.js" ></script>
+
+
+<script type="module">
+    import { Octokit, App } from "https://cdn.skypack.dev/octokit";
+    octokit = new Octokit({ auth: `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` });
+    async function getGitAuth(){
+        const {
+            data: { login },
+            } = await octokit.rest.users.getAuthenticated();
+        console.log("Hello, %s", login);
+    }
+    getGitAuth();
+</script>    
 
 </body>
 </html>
